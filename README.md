@@ -39,7 +39,7 @@ module "databricks_config" {
 | <a name="input_disaster_recovery"></a> [disaster\_recovery](#input\_disaster\_recovery) | For disaster recovery infrastructure. | `bool` | n/a | yes |
 | <a name="input_vnet_id"></a> [vnet\_id](#input\_vnet\_id) | The vnet ID | `string` | n/a | yes |
 | <a name="input_description_tag"></a> [description\_tag](#input\_description\_tag) | A description tag to add to the link. | `string` | `"vNet link"` | no |
-| <a name="input_dns_zones_exclude_list"></a> [dns\_zones\_exclude\_list](#input\_dns\_zones\_exclude\_list) | (Optional) A list of DNS Private Zone to not link. | `list(string)` | <pre>[<br>  "privatelink.azurewebsites.net",<br>  "privatelink.blob.core.windows.net",<br>  "privatelink.database.windows.net",<br>  "privatelink.dfs.core.windows.net",<br>  "privatelink.postgres.database.azure.com",<br>  "privatelink.vaultcore.azure.net"<br>]</pre> | no |
+| <a name="input_dns_zones_exclude_list"></a> [dns\_zones\_exclude\_list](#input\_dns\_zones\_exclude\_list) | (Optional) A list of DNS Private Zone to not link. | `list(string)` | <pre>[<br/>  "privatelink.azurewebsites.net",<br/>  "privatelink.blob.core.windows.net",<br/>  "privatelink.database.windows.net",<br/>  "privatelink.dfs.core.windows.net",<br/>  "privatelink.postgres.database.azure.com",<br/>  "privatelink.vaultcore.azure.net"<br/>]</pre> | no |
 
 #### Outputs
 
